@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Voidmain443"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "About"
+        menu: 
+          - about.qmd
+          - project.qmd
+          - program.qmd
+      - text: "Research"
+        menu:
+          - lecture.qmd
+          - lecture_note.qmd
+      - text: "people"
+        menu: 
+          - People.qmd
+          - Member_Portal.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

@@ -1,0 +1,5 @@
+---
+title: "Quarto_blog"
+---
+
+Hi my name is Paul Park. I like studying econometrics and 
