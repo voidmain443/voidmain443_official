@@ -1,5 +1,10 @@
 ---
-title: "Quarto_blog"
+title: "Economic complexity and the endless"
+lang: ko
 ---
 
-Hi my name is Paul Park. I like studying econometrics and 
+
+이 글에서는 우리는 다양한 주제를 다룰것입니다. 
+경제학으로는 위험을 기준으로 금융의 위험을 그 리스크에 대한 이해까지 이해하기 위해 공부하고 FRM,SOA
+네트워크 과학에서는 네트워크 과학의 이론과 복잡계 이론을 주로 다룰것입니다. 
+임
