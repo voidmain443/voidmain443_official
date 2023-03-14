@@ -1,0 +1,106 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  page-navigation: true
+  title: "Endless"
+  description: "Endless"
+  reader-mode: true
+
+  repo-url: https://voidmain443.github.io/voidmain443_official/
+  repo-actions: [edit, issue]
+  open-graph: true
+
+
+  navbar:
+    background: primary
+    search: true 
+    left: 
+      - text: "Home"
+        file: index.qmd
+      - text: "Economic-lab"
+        file: economics.qmd
+      - text: "Network Science"
+        file: network_science.qmd
+      - text: "Buissness"
+        file: Buissness.qmd
+      - text: "psychology-C"
+        file: Clinical_psychology.qmd
+      - text: "Law"
+        file: law.qmd
+      - text: "Linguistics"
+        file: Linguistics_nlp.qmd
+
+  page-footer:
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2023, Voidmain443"
+    background: "#D9E3E4"
+
+
+
+  sidebar:
+    background: "#D9E3E4"
+    logo: "images/logo.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: twitter
+        href: https://twitter.com/voidmain443
+        text: "twitter"
+      - icon: github
+        menu:
+          - text: my_github
+            url:  https://github.com/voidmain443
+          - text: personal_lab+
+            url:  https://
+      - icon: reddit
+        href: https://www.reddit.com/user/Voidmain443
+
+
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:
+      - section: "Home"
+        contents:
+          - index.qmd
+          - about.qmd
+      - section: "Economics"
+        contents: 
+          - economics.qmd
+          - basic_math.qmd
+          - basic_statistics.qmd
+      
+      - section: "Network_S"
+        contents: 
+          - network_science.qmd
+          - network_newman1.qmd
+        
+      - section: "Buissness"
+        contents: 
+          - Buissness.qmd
+          - Vision_and_action.qmd
+
+      - section: "psychology-C"
+        contents: 
+          - Clinical_psychology.qmd
+
+      - section: "Law"
+        contents: 
+          - law.qmd
+          - Jurispredence.qmd
+        
+      - section: "dance"
+        contents: 
+          - dance.qmd
+
+      - section: "Linguistics"
+        contents: 
+          - Linguistics_nlp.qmd
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
